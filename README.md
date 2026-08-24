@@ -54,6 +54,8 @@ The competition is ongoing with a rolling leaderboard. Source data is not redist
 | Business documentation | `docs/` | KPI definitions, BPM, system requirements, and reporting cadence |
 | Kaggle submission | `submission.csv` | Predictions in the required `id,sales` format |
 
+[View Live Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmRkZDRkYmUtODM2Yy00OTYxLTgwMjktOTk4MzJkYjk4YTI4IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D)
+
 ## Validated results
 
 - Aligned 2017 YTD sales: **194.2 million units**, up **10.0%** from the same 2016 window.
