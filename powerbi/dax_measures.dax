@@ -1,0 +1,71 @@
+-- Create a blank table named KPI_Measures, then add these measures to it.
+
+Unit Sales =
+SUM ( fact_monthly_store_family[unit_sales] )
+
+Promotion Units =
+SUM ( fact_monthly_store_family[promotion_units] )
+
+Promotion Share % =
+DIVIDE ( [Promotion Units], [Unit Sales] )
+
+Units Previous Year =
+CALCULATE ( [Unit Sales], DATEADD ( dim_date[full_date], -1, YEAR ) )
+
+Revenue YoY Proxy % =
+DIVIDE ( [Unit Sales] - [Units Previous Year], [Units Previous Year] )
+
+Transactions =
+SUM ( fact_daily_store[transactions] )
+
+Units per Transaction =
+DIVIDE ( SUM ( fact_daily_store[unit_sales] ), [Transactions] )
+
+Forecast Actual Sales =
+SUM ( fact_forecast_validation[actual_sales] )
+
+Forecast Sales =
+SUM ( fact_forecast_validation[forecast_sales] )
+
+Forecast Absolute Error =
+SUM ( fact_forecast_validation[absolute_error] )
+
+Forecast Bias % =
+DIVIDE ( [Forecast Sales] - [Forecast Actual Sales], [Forecast Actual Sales] )
+
+Forecast WAPE % =
+DIVIDE ( [Forecast Absolute Error], [Forecast Actual Sales] )
+
+Forecast Accuracy % =
+MAX ( 0, 1 - [Forecast WAPE %] )
+
+Forecast RMSLE =
+SQRT (
+    AVERAGEX (
+        fact_forecast_validation,
+        POWER (
+            LN ( 1 + fact_forecast_validation[forecast_sales] )
+                - LN ( 1 + fact_forecast_validation[actual_sales] ),
+            2
+        )
+    )
+)
+
+High Error Rows =
+COUNTROWS (
+    FILTER (
+        fact_forecast_validation,
+        fact_forecast_validation[absolute_percentage_error] >= 0.30
+    )
+)
+
+Observed Days =
+MAX ( fact_monthly_store_family[observed_days] )
+
+Reporting Scope =
+VAR SelectedDate = MAX ( dim_date[full_date] )
+VAR Observed = [Observed Days]
+VAR Expected = DAY ( EOMONTH ( SelectedDate, 0 ) )
+RETURN
+    IF ( Observed < Expected, "Partial month", "Complete month" )
+

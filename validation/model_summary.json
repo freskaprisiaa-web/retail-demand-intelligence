@@ -1,0 +1,12 @@
+{
+  "validation_start": "2017-07-31",
+  "validation_end": "2017-08-15",
+  "forecast_horizon_days": 16,
+  "validation_rows": 28512,
+  "validation_rmsle": 0.5510361765498359,
+  "validation_bias": -0.015034705294357855,
+  "validation_wape": 0.17180147978671548,
+  "submission_rows": 28512,
+  "submission_null_predictions": 0,
+  "submission_negative_predictions": 0
+}

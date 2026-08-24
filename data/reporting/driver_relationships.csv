@@ -1,0 +1,5 @@
+relationship,measure,value,interpretation
+Promotion units vs unit sales,Pearson correlation,0.3588485237478981,Descriptive association; not a causal promotion effect
+Transactions vs unit sales,Pearson correlation,0.8373836801236636,Descriptive traffic relationship
+WTI oil price vs unit sales,Pearson correlation,-0.29955673660271115,National time-series association; confounding is expected
+Holiday vs non-holiday unit sales,Mean difference ratio,0.1909114122390747,Unadjusted descriptive lift; not a causal estimate

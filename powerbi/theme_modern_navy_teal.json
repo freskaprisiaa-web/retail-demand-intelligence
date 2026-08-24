@@ -1,0 +1,16 @@
+{
+  "name": "Retail Demand Intelligence — Navy Teal",
+  "dataColors": ["#173B57", "#168F8B", "#D9A441", "#C45A3A", "#6D7C88", "#8BA9B5"],
+  "background": "#F4F7F9",
+  "foreground": "#243746",
+  "tableAccent": "#168F8B",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{"show": true, "fontColor": {"solid": {"color": "#173B57"}}, "fontSize": 12}],
+        "background": [{"show": true, "color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}],
+        "border": [{"show": true, "color": {"solid": {"color": "#D9E2E8"}}, "radius": 8}]
+      }
+    }
+  }
+}

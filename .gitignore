@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+
+# Kaggle source files are subject to competition rules and train.csv exceeds GitHub's 100 MB limit.
+data/*.csv
+!data/processed/*.csv
+!data/powerbi/*.csv
+
+# Local analytical databases and temporary exports
+*.sqlite
+*.db
+*.duckdb
+*.tmp
+~$*.xlsx
+*.inspect.ndjson
+.jupyter/

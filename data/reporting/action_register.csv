@@ -1,0 +1,26 @@
+store_nbr,family,actual_sales,forecast_sales,absolute_error,forecast_bias,wape,priority,recommended_action,owner,status
+44,BEVERAGES,147313.0,169555.125,31301.125,0.15098548668481396,0.21248039887857825,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+20,GROCERY I,103970.56,83054.5775756836,25758.597717285156,-0.2011721820233146,0.2477489502596964,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+48,GROCERY I,137940.0,129226.75,25632.5,-0.06316695664781789,0.1858235464694795,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+47,GROCERY I,164411.0,163750.0,25354.25,-0.004020412259520348,0.15421261351126142,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+11,GROCERY I,127076.44,106781.771484375,24207.827392578125,-0.159704398509165,0.19049815897284755,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+46,GROCERY I,151470.0,150963.25,24017.25,-0.0033455469729979535,0.15856110120816003,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+28,GROCERY I,92939.88,71502.37274169922,23645.51202392578,-0.23065996450683637,0.25441727822735716,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+45,BEVERAGES,141064.0,154719.0,23130.0,0.09680003402710827,0.16396812794192706,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+9,GROCERY I,114862.28,97867.22564697266,22452.201721191406,-0.14796028268006686,0.1954706234009383,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+44,GROCERY I,152986.0,163161.875,22132.375,0.06651507327467873,0.14466928346384636,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+47,BEVERAGES,137311.0,145046.375,21894.125,0.05633470734318445,0.15944917013203602,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+54,BEVERAGES,62539.0,51671.625,21866.375,-0.17376956778969924,0.3496438222549129,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+40,BEVERAGES,85249.0,72876.125,21575.375,-0.14513806613567315,0.2530865464697533,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+40,GROCERY I,102278.0,82612.625,21156.875,-0.1922737538864663,0.20685655761747396,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+38,BEVERAGES,42227.0,42358.375,19402.375,0.0031111611054538565,0.45947794065408387,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+3,BEVERAGES,126131.0,142006.375,19192.375,0.12586418089129556,0.15216223608787688,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+36,BEVERAGES,64111.0,45006.75,19188.25,-0.2979870848996272,0.29929731247367847,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+46,BEVERAGES,93164.0,104735.5,18484.5,0.12420570177321712,0.19840818341848782,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+45,GROCERY I,176225.0,176095.625,18216.625,-0.0007341466874734004,0.10337140019860973,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+20,BEVERAGES,71261.0,54324.5,16936.5,-0.23766857046631398,0.23766857046631398,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+41,BEVERAGES,37439.0,46014.25,15659.25,0.22904591468789232,0.4182603702021956,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+42,BEVERAGES,39477.0,48441.75,15350.75,0.2270879246143324,0.38885300301441345,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+49,BEVERAGES,105172.0,114950.375,14678.375,0.09297507891834328,0.13956542615905373,P2,Review over-forecast and demand assumptions,Inventory Planning,Not Started
+39,CLEANING,34078.0,24216.75,14598.25,-0.28937290920828684,0.42837754563061214,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started
+39,GROCERY I,88215.555,80976.71765136719,14513.911010742188,-0.08205851067621914,0.16452779855159472,P2,Review under-forecast and replenishment assumptions,Inventory Planning,Not Started

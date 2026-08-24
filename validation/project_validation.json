@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "Source row count",
+      "status": "pass",
+      "detail": "3,000,888 training rows"
+    },
+    {
+      "check": "Source primary key",
+      "status": "pass",
+      "detail": "No duplicate training IDs"
+    },
+    {
+      "check": "Notebook execution",
+      "status": "pass",
+      "detail": "10 code cells executed without error"
+    },
+    {
+      "check": "Kaggle submission",
+      "status": "pass",
+      "detail": "28,512 unique id,sales rows; no null or negative predictions"
+    },
+    {
+      "check": "Forecast metric reconciliation",
+      "status": "pass",
+      "detail": "RMSLE 0.551036"
+    },
+    {
+      "check": "Multi-source BI integration",
+      "status": "pass",
+      "detail": "Transactions, oil, and locale-aware holiday fields are present"
+    },
+    {
+      "check": "Daily-store grain",
+      "status": "pass",
+      "detail": "90,936 unique date-store rows"
+    },
+    {
+      "check": "Driver diagnostics",
+      "status": "pass",
+      "detail": "Four descriptive demand-driver relationships"
+    },
+    {
+      "check": "SQLite analytical model",
+      "status": "pass",
+      "detail": "dim_date, dim_family, dim_store, fact_daily_store, fact_forecast_validation, fact_monthly_store_family"
+    },
+    {
+      "check": "Portable dashboard",
+      "status": "pass",
+      "detail": "Self-contained HTML with embedded data and corrected month field"
+    },
+    {
+      "check": "Excel management pack",
+      "status": "pass",
+      "detail": "10 sheets; no stored formula-error tokens"
+    },
+    {
+      "check": "Power BI handoff",
+      "status": "pass",
+      "detail": "6 model CSVs plus DAX and build guide"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "source": "Kaggle Store Sales - Time Series Forecasting",
+  "data_directory": "C:\\Users\\Lenovo\\OneDrive\\Documents\\PORTFOLIO\\retail-demand-intelligence\\data",
+  "files": {
+    "train.csv": {
+      "rows": 3000888,
+      "columns": [
+        "id",
+        "date",
+        "store_nbr",
+        "family",
+        "sales",
+        "onpromotion"
+      ],
+      "nulls": {
+        "id": 0,
+        "date": 0,
+        "store_nbr": 0,
+        "family": 0,
+        "sales": 0,
+        "onpromotion": 0
+      },
+      "id_min": 0,
+      "id_max": 3000887,
+      "duplicate_ids": 0,
+      "date_min": "2013-01-01",
+      "date_max": "2017-08-15",
+      "distinct_stores": 54,
+      "distinct_families": 33,
+      "negative_sales": 0,
+      "zero_sales": 939130,
+      "zero_sales_rate": 0.3129506999261552,
+      "sales_total": 1073644952.2030684,
+      "negative_onpromotion": 0,
+      "positive_onpromotion_rows": 611329,
+      "positive_onpromotion_rate": 0.20371603338745065,
+      "schema_matches_expected": true
+    },
+    "test.csv": {
+      "rows": 28512,
+      "columns": [
+        "id",
+        "date",
+        "store_nbr",
+        "family",
+        "onpromotion"
+      ],
+      "nulls": {
+        "id": 0,
+        "date": 0,
+        "store_nbr": 0,
+        "family": 0,
+        "onpromotion": 0
+      },
+      "exact_duplicate_rows": 0,
+      "date_min": "2017-08-16",
+      "date_max": "2017-08-31",
+      "invalid_dates": 0,
+      "schema_matches_expected": true
+    },
+    "stores.csv": {
+      "rows": 54,
+      "columns": [
+        "store_nbr",
+        "city",
+        "state",
+        "type",
+        "cluster"
+      ],
+      "nulls": {
+        "store_nbr": 0,
+        "city": 0,
+        "state": 0,
+        "type": 0,
+        "cluster": 0
+      },
+      "exact_duplicate_rows": 0,
+      "schema_matches_expected": true
+    },
+    "transactions.csv": {
+      "rows": 83488,
+      "columns": [
+        "date",
+        "store_nbr",
+        "transactions"
+      ],
+      "nulls": {
+        "date": 0,
+        "store_nbr": 0,
+        "transactions": 0
+      },
+      "exact_duplicate_rows": 0,
+      "date_min": "2013-01-01",
+      "date_max": "2017-08-15",
+      "invalid_dates": 0,
+      "schema_matches_expected": true
+    },
+    "oil.csv": {
+      "rows": 1218,
+      "columns": [
+        "date",
+        "dcoilwtico"
+      ],
+      "nulls": {
+        "date": 0,
+        "dcoilwtico": 43
+      },
+      "exact_duplicate_rows": 0,
+      "date_min": "2013-01-01",
+      "date_max": "2017-08-31",
+      "invalid_dates": 0,
+      "schema_matches_expected": true
+    },
+    "holidays_events.csv": {
+      "rows": 350,
+      "columns": [
+        "date",
+        "type",
+        "locale",
+        "locale_name",
+        "description",
+        "transferred"
+      ],
+      "nulls": {
+        "date": 0,
+        "type": 0,
+        "locale": 0,
+        "locale_name": 0,
+        "description": 0,
+        "transferred": 0
+      },
+      "exact_duplicate_rows": 0,
+      "date_min": "2012-03-02",
+      "date_max": "2017-12-26",
+      "invalid_dates": 0,
+      "schema_matches_expected": true
+    },
+    "sample_submission.csv": {
+      "rows": 28512,
+      "columns": [
+        "id",
+        "sales"
+      ],
+      "nulls": {
+        "id": 0,
+        "sales": 0
+      },
+      "exact_duplicate_rows": 0,
+      "schema_matches_expected": true
+    }
+  },
+  "integrity": {
+    "train_orphan_store_keys": [],
+    "test_orphan_store_keys": [],
+    "transaction_orphan_store_keys": [],
+    "train_family_count": 33,
+    "test_new_families": [],
+    "train_distinct_dates": 1684,
+    "expected_train_calendar_days": 1688,
+    "missing_train_dates": [
+      "2013-12-25",
+      "2014-12-25",
+      "2015-12-25",
+      "2016-12-25"
+    ],
+    "test_expected_grid_rows": 28512,
+    "test_actual_rows": 28512,
+    "transaction_duplicate_date_store_keys": 0,
+    "holiday_dates_with_multiple_records": 31,
+    "oil_missing_value_rate": 0.035303776683087026
+  }
+}
